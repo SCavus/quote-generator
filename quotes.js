@@ -506,3 +506,8 @@ const quotes = [
     author: "Zig Ziglar",
   },
 ];
+
+paraDiv.appendChild(quoteParagraph)
+quoteParagraph.textContent = quotes[0].quote
+paraDiv.appendChild(authorParagraph)
+authorParagraph.textContent = quotes[0].author
